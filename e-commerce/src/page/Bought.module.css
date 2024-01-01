@@ -1,0 +1,53 @@
+.cont{
+    margin-top: 65px;
+    display: grid;
+    gap: 10px;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #3d7c98;
+    margin-bottom: 30px;
+    margin-top:5px ;
+}
+.title .me{
+    font-size: 15px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    background-color: azure;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+}
+.me:hover{
+    background-color: #73b0cd;
+}
+.bought{
+    background: white;
+    color: #3d7c98;
+    margin-right: 10px;
+}
+.title a{
+    text-decoration: none;
+    color: white;
+}
+.sold{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d7c98;
+    margin-left: 10px;
+}
+@media(max-width:600px){
+    .title{
+        font-size: 20px;
+    }
+}

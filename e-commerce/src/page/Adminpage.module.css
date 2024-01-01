@@ -1,0 +1,49 @@
+.cont{
+    margin-top: 70px;
+}
+.box{
+    display: flex;
+    margin: 10px;
+
+}
+.title{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #3d7c98;
+
+}
+.title .me{
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    background-color: azure;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+}
+.me:hover{
+    background-color: #73b0cd;
+}
+.product{
+    background: white;
+    color: #3d7c98;
+    margin-left: 10px;
+}
+.title a{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:600px){
+    .title{
+        font-size: 20px;
+    }
+}

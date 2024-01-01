@@ -1,0 +1,91 @@
+.box{
+    width: 100%;
+    margin-top: 70px;
+    height: calc(100vh - 70px);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.cartheader{
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    height:40px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    color: white;
+    background: #3d7c98;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+    padding: 10px;
+}
+.product{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.price{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+.quantity{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.subtotal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+}
+.remove{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+}
+.total{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    gap: 30px;
+    font-size: 25px;
+}
+.total a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #3d7c98;
+    background: white;
+    border: 1px solid #3d7c98;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.total a:hover{
+    background:#3d7c98 ;
+    color:white;
+}
+@media(max-width:900px){
+    .cartheader{
+        font-size: 10px;
+    }
+}
